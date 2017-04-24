@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/gif"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:background="@drawable/state_active"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/text"
+            android:layout_width="260dp"
+            android:layout_height="128dp"
+            android:background="@drawable/bg_main_active"
+            android:contentDescription="@string/app_name" />
+
+        <Button
+            android:id="@+id/stop_btn_lockscreen"
+            android:layout_width="116.5dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/stop_btn" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SpeechRecognizer</string>
+    <!-- 请替换成在语音云官网申请的appid -->
+    <string name="app_id">566f9b25</string>
+</resources>

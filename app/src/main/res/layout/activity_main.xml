@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:paddingBottom="12.5dp"
+        android:paddingTop="12.5dp">
+
+        <Button
+            android:id="@+id/night_mode_switcher"
+            android:layout_width="60dp"
+            android:layout_height="51dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/night_mode_off"
+            android:contentDescription="@string/night_mode" />
+
+        <ImageView
+            android:layout_width="140dp"
+            android:layout_height="51dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/title"
+            android:contentDescription="@string/app_name" />
+
+        <Button
+            android:id="@+id/main_switcher"
+            android:layout_width="68dp"
+            android:layout_height="31.5dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/main_switcher_off"
+            android:contentDescription="@string/main_switcher" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/gif_state"
+            android:layout_width="260dp"
+            android:layout_height="260dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/state_off"
+            android:contentDescription="@string/state_off" />
+
+        <ImageView
+            android:id="@+id/text_state"
+            android:layout_width="260dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/bg_main_off"
+            android:contentDescription="@string/state_off" />
+
+        <Button
+            android:id="@+id/stop_btn"
+            android:layout_width="116.5dp"
+            android:layout_height="58dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/stop_btn"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</RelativeLayout>

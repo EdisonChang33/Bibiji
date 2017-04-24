@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">逼逼机</string>
+    <string name="setting_title">设置</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="setting_label1">铃声</string>
+    <string name="setting_label2">音量增强</string>
+    <string name="title_activity_lock_screen">LockScreenActivity</string>
+    <string name="hello_world">主人我在这里！</string>
+    <string name="night_mode">夜间模式</string>
+    <string name="main_switcher">总开关</string>
+    <string name="title_activity_night_mode_notice">NightModeNoticeActivity</string>
+    <string name="state_off">关闭状态</string>
+
+    <!-- back support -->
+    <string name="back_support_string">再按一次返回键退出应用</string>
+
+    <!--更新下载-->
+    <string name="download_fail">下载失败，您的网络可能不好哦！</string>
+    <string name="check_update_fail">检查更新失败！</string>
+    <string name="check_update_new">已经是最新版本啦！</string>
+
+</resources>

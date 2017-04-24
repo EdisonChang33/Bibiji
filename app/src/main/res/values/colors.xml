@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="setting_text">#FFFFFF</color>
+    <color name="setting_label">#EEEEEE</color>
+    <color name="setting_label_bg">#2b3244</color>
+    
+</resources>

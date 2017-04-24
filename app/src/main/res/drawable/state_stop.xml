@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<animation-list android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="100" android:drawable="@drawable/state_stop_1" />
+    <item android:duration="100" android:drawable="@drawable/state_stop_2" />
+    <item android:duration="100" android:drawable="@drawable/state_stop_3" />
+    <item android:duration="100" android:drawable="@drawable/state_stop_4" />
+    <item android:duration="100" android:drawable="@drawable/state_stop_5" />
+    <item android:duration="100" android:drawable="@drawable/state_stop_6" />
+    <item android:duration="100" android:drawable="@drawable/state_stop_7" />
+    <item android:duration="100" android:drawable="@drawable/state_stop_8" />
+    <item android:duration="100" android:drawable="@drawable/state_stop_9" />
+    <item android:duration="100" android:drawable="@drawable/state_stop_10" />
+    <item android:duration="100" android:drawable="@drawable/state_stop_11" />
+    <item android:duration="100" android:drawable="@drawable/state_stop_12" />    
+</animation-list> 
